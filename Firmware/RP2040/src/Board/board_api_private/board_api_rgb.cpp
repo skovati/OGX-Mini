@@ -20,7 +20,7 @@ void init() {
     gpio_put(RGB_PWR_PIN, 1);
 #endif
 
-    set_led(0xFF, 0, 0);
+    set_led(0x22, 0, 0);
 }
 
 void set_led(uint8_t r, uint8_t g, uint8_t b) {

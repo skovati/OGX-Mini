@@ -44,7 +44,7 @@ void set_led(bool state) {
         board_api_bt::set_led(state);
     }
     if (board_api_rgb::set_led) {
-        board_api_rgb::set_led(state ? 0x00 : 0xFF, state ? 0xFF : 0x00, 0x00);
+        board_api_rgb::set_led(state ? 0x00 : 0x22, state ? 0x22 : 0x00, 0x00);
     }
 
     mutex_exit(&gpio_mutex_);
