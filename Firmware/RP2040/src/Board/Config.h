@@ -35,6 +35,7 @@
 #elif defined(CONFIG_OGXM_BOARD_RP2040_XIAO)
     #define OGXM_BOARD          RP2040_XIAO
     #define RGB_PXL_PIN         12
+    #define RGB_PWR_PIN         11
     #define PIO_USB_DP_PIN      0 // DM = 1
     #define LED_INDICATOR_PIN   17
 
